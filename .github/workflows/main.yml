@@ -15,6 +15,9 @@ jobs:
       - run: npm i -g npm-check-updates
       - run: ncu -u
       - run: npm install
+      - run: ls
+      - run: cd ..
+      - run: ls
       - run: npm run build
       - run: ls
       - run: cd ..
